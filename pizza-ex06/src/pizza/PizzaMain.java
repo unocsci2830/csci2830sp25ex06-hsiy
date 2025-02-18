@@ -100,7 +100,7 @@ public class PizzaMain {
 
 	private MeatTopping getMeatToppingDetails(MeatTopping m) {
 		Integer spiciness = 0;
-		Boolean validChoice = false;
+		Boolean validChoice = true;
 		while (!validChoice) {
 			System.out.print("Spiciness level (1-10): ");
 			spiciness = input.nextInt();
